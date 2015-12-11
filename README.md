@@ -7,7 +7,7 @@ Tipper is a tip calculator application for iOS.
 
 Submitted by: Kevin Kim
 
-Time spent: ~3 hours spent in total
+Time spent: ~6 hours spent in total
 
 ## User Stories
 
@@ -17,26 +17,27 @@ The following **required** functionality is complete:
 * [x] Settings page to change the default tip percentage.
 
 The following **optional** features are implemented:
-* [ ] UI animations
-* [ ] Remembering the bill amount across app restarts (if <10mins)
-* [ ] Using locale-specific currency and currency thousands separators.
-* [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+* [x] UI animations
+* [x] Remembering the bill amount across app restarts (if <10mins)
+* [x] Using locale-specific currency and currency thousands separators.
+* [x] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [x] Added slider to give user more control over tip amount
+- [x] Shows bill total if split among 2, 3, or 4 people
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-<img src='/Other/Initial_Tip_Calc_Test.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='/Other/Tipper_Overview.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+This was my first go at using animations and working with currency. Getting the appropriate currency was easier than expected because of the provided "currency" number formatter and locale specific currency symbols. Incorporating animations were a bit trickier because keeping track of the layout and animation speed were finicky.
 
 ## License
 
