@@ -1,3 +1,7 @@
+<p align="center" >
+  <img src="/Other/Tipper_Banner.jpg" alt="Banner" title="Banner" width="563">
+</p>
+
 # Tipper
 Calculates tip for your bill
 
